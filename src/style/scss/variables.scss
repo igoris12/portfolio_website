@@ -1,3 +1,14 @@
-$base-color: #c6538c;
-/* font-family: 'Poppins', sans-serif;
-      font-family: 'Share Tech Mono', monospace; */
+$primaryColor: linear-gradient(
+  90deg,
+  rgba(249, 105, 14, 1) 0%,
+  rgba(102, 51, 153, 1) 99%
+);
+$secondaryColor: rgb(0, 206, 158);
+$backgroundColor: rgb(2 12 27);
+$headerFont: 'Share Tech Mono', monospace;
+$secondaryFont: 'Poppins', sans-serif;
+$heroBackground: linear-gradient(
+  90deg,
+  rgba(0, 64, 77) 0%,
+  rgba(2, 12, 27) 99%
+);
