@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import logo from "../img/logo.png";
+import avatar from "../img/avatar.png";
 
 
 const NavBar = () => {
@@ -20,12 +21,12 @@ const NavBar = () => {
             <a className='logo'><img src={logo} alt="logo" /></a>
             <nav className='list active'>
                 <ul>
-                {mobileScreen && <div className='avatar' ><div className='avatarContainer'><img src={logo} alt="Avatar" /></div>
-                <p className='listItem'>Igoris Ivanovas</p></div>}
-                    <li className='listItem'>About</li>
-                    <li className='listItem'>Projects</li>
-                    <li className='listItem'>Services</li>
-                    <li className='listItem'>Contact</li>
+                {mobileScreen && <a className='avatar listItem' ><div className='avatarContainer'><img src={avatar} alt="Avatar" /></div>
+                <p >Igoris Ivanovas</p></a>}
+                    <a className='listItem'>About</a>
+                    <a className='listItem'>Projects</a>
+                    <a className='listItem'>Services</a>
+                    <a className='listItem'>Contact</a>
                 </ul>
                 {/* icons  */}
             </nav>
