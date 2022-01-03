@@ -5,14 +5,16 @@
   align-items: center;
   padding: 0 20px;
   height: 80px;
+  transition: 0.5s;
   .logo {
-    background-color: rgb(17, 17, 126);
+    background-color: rgb(87, 87, 88);
     width: 55px;
     height: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
     img {
       width: 40px;
       height: 40px;
@@ -47,12 +49,48 @@
         }
       }
     }
-    &.active {
-      // in progress..
-    }
+    // &.active {
+    //   // in progress..
+    // }
   }
   justify-content: space-between;
   .hamburger {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    .hmItem1 {
+      background: $navBarIcon;
+      width: 15px;
+      height: 3px;
+      transition: 1s;
+    }
+    .hmItem2 {
+      background: $navBarIcon;
+      width: 30px;
+      height: 3px;
+      transition: 1s;
+    }
+    .hmItem3 {
+      background: $navBarIcon;
+      width: 15px;
+      height: 3px;
+      margin-left: 15px;
+      transition: 1s;
+    }
+    &.active {
+      .hmItem1 {
+        transform: translate(0px, 5px) rotate(45deg);
+        width: 100%;
+      }
+      .hmItem2 {
+        background: transparent;
+      }
+      .hmItem3 {
+        transform: translate(-15px, -10px) rotate(-45deg);
+        width: 100%;
+      }
+    }
   }
 }
+//  transform: translate(30px, 20px) rotate(20deg);

@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../img/logo.png";
-// console.log(logo);
+
 
 const NavBar = () => {
     return (
@@ -12,9 +12,9 @@ const NavBar = () => {
                     <li className='listItem'>Projects</li>
                     <li className='listItem'>Services</li>
                     <li className='listItem'>Contact</li>
-
-                </ul></nav>
-            <div className='hamburger'>hamburger</div>
+                </ul>
+            </nav>
+            <div className='hamburger'><div className='hmItem1'></div>< div className='hmItem2'></div><div className='hmItem3'></div></div>
         </div>
     )
 }
