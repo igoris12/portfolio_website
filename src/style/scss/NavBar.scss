@@ -92,6 +92,32 @@
         margin-top: 100px;
       }
     }
+    .socialsLinks {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      a {
+        font-size: 25px;
+        color: white;
+        &::after {
+          content: '';
+          display: block;
+          height: 3px;
+          background: $color3;
+          width: 0%;
+          transition: 0.5s;
+        }
+        &:hover {
+          color: $color3;
+
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
   justify-content: space-between;
 
@@ -107,20 +133,20 @@
       background: $navBarIcon;
       width: 15px;
       height: 3px;
-      transition: 1s;
+      transition: 0.5s;
     }
     .hmItem2 {
       background: $navBarIcon;
       width: 30px;
       height: 3px;
-      transition: 1s;
+      transition: 0.5s;
     }
     .hmItem3 {
       background: $navBarIcon;
       width: 15px;
       height: 3px;
       margin-left: 15px;
-      transition: 1s;
+      transition: 0.5s;
     }
     &.active {
       .hmItem1 {
@@ -145,6 +171,16 @@
     }
     .hamburger {
       display: flex;
+    }
+  }
+}
+
+@media (min-width: 770px) {
+  .navBar {
+    .list {
+      &.active {
+        display: none;
+      }
     }
   }
 }
