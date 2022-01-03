@@ -22,7 +22,7 @@ const NavBar = () => {
    
 return (
     <div className='navBar'>
-            <a className='logo'><img src={logo} alt="logo" /></a>
+            <a href='https://igoris12.github.io/portfolio_website/' className='logo'><img src={logo} alt="logo" /></a>
             <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
                 <ul>
                 {mobileScreen &&
