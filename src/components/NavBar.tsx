@@ -6,15 +6,17 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <a className='logo'><img src={logo} alt="logo" /></a>
-            <nav className='list'>
+            <nav className='list active'>
+                {/* image  */}
                 <ul>
                     <li className='listItem'>About</li>
                     <li className='listItem'>Projects</li>
                     <li className='listItem'>Services</li>
                     <li className='listItem'>Contact</li>
                 </ul>
+                {/* icons  */}
             </nav>
-            <div className='hamburger'><div className='hmItem1'></div>< div className='hmItem2'></div><div className='hmItem3'></div></div>
+            <div className='hamburger '><div className='hmItem1'></div>< div className='hmItem2'></div><div className='hmItem3'></div></div>
         </div>
     )
 }
