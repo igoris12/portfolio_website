@@ -14,13 +14,14 @@ const NavBar = () => {
     
 
 
-    console.log(mobileScreen);
+    
     return (
         <div className='navBar'>
             <a className='logo'><img src={logo} alt="logo" /></a>
-            <nav className='list'>
-                {/* image  */}
+            <nav className='list active'>
                 <ul>
+                {mobileScreen && <div className='avatar' ><div className='avatarContainer'><img src={logo} alt="Avatar" /></div>
+                <p className='listItem'>Igoris Ivanovas</p></div>}
                     <li className='listItem'>About</li>
                     <li className='listItem'>Projects</li>
                     <li className='listItem'>Services</li>

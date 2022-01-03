@@ -27,6 +27,30 @@
       display: flex;
       gap: 20px;
       list-style: none;
+      .avatar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        .avatarContainer {
+          background-color: white;
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+          }
+        }
+
+        p {
+        }
+      }
       .listItem {
         text-transform: uppercase;
         font-family: $headerFont;
