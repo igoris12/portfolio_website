@@ -133,20 +133,20 @@
       background: $navBarIcon;
       width: 15px;
       height: 3px;
-      transition: 1s;
+      transition: 0.5s;
     }
     .hmItem2 {
       background: $navBarIcon;
       width: 30px;
       height: 3px;
-      transition: 1s;
+      transition: 0.5s;
     }
     .hmItem3 {
       background: $navBarIcon;
       width: 15px;
       height: 3px;
       margin-left: 15px;
-      transition: 1s;
+      transition: 0.5s;
     }
     &.active {
       .hmItem1 {
