@@ -6,7 +6,7 @@
   padding: 0 20px;
   height: 80px;
   .logo {
-    background-color: rgb(14, 14, 255);
+    background-color: rgb(17, 17, 126);
     width: 55px;
     height: 55px;
     display: flex;
@@ -20,7 +20,36 @@
     }
   }
   .list {
-    background-color: yellow;
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+      .listItem {
+        text-transform: uppercase;
+        font-family: $headerFont;
+        font-size: 14px;
+        transition: 0.5s;
+        cursor: pointer;
+        &::after {
+          content: '';
+          display: block;
+          height: 3px;
+          background: $color3;
+          width: 0%;
+          transition: 0.5s;
+        }
+        &:hover {
+          color: $color3;
+
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+    &.active {
+      // in progress..
+    }
   }
   justify-content: space-between;
   .hamburger {
