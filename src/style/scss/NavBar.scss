@@ -34,7 +34,6 @@
         display: flex;
 
         .avatarContainer {
-          background-color: white;
           border-radius: 50%;
           width: 80px;
           height: 80px;
@@ -43,8 +42,8 @@
           justify-content: center;
           overflow: hidden;
           img {
-            width: 80px;
-            height: 80px;
+            width: 85px;
+            height: 85px;
             object-fit: contain;
           }
         }
