@@ -92,6 +92,32 @@
         margin-top: 100px;
       }
     }
+    .socialsLinks {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      a {
+        font-size: 25px;
+        color: white;
+        &::after {
+          content: '';
+          display: block;
+          height: 3px;
+          background: $color3;
+          width: 0%;
+          transition: 0.5s;
+        }
+        &:hover {
+          color: $color3;
+
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
   justify-content: space-between;
 
