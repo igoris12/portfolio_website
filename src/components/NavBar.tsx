@@ -11,7 +11,6 @@ const NavBar = () => {
         window.innerWidth <= 770 ? setMobileScreen(true) : setMobileScreen(false);
         return     window.addEventListener('resize', () => {
         window.innerWidth <= 770 ? setMobileScreen(true) : setMobileScreen(false);
-        
     })
     }, [])
     
@@ -20,11 +19,11 @@ const NavBar = () => {
         setMobileActive(!mobileActive)
     }
 
-    
-    return (
-        <div className='navBar'>
+   
+return (
+    <div className='navBar'>
             <a className='logo'><img src={logo} alt="logo" /></a>
-            <nav className={`list ${mobileActive ? 'active': null}`}>
+            <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
                 <ul>
                 {mobileScreen &&
                  <a className='avatar listItem' >
@@ -42,12 +41,13 @@ const NavBar = () => {
                     <a href="https://www.linkedin.com/in/igoris-ivanovas-839645194/" target="_blank" ><AiFillLinkedin/></a>
                 </div>}
             </nav>
-            <div className={`hamburger ${mobileActive ? 'active': null}`} onClick={() => toggleMobileActive()}>
+            <div className={ mobileActive ? 'hamburger active' : 'hamburger'} onClick={() => toggleMobileActive()}>
                 <div className='hmItem1' >
                     </div>< div className='hmItem2'></div><div className='hmItem3'></div>
                 </div>
         </div>
     )
+    
 }
 
 export default NavBar

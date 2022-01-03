@@ -174,3 +174,13 @@
     }
   }
 }
+
+@media (min-width: 770px) {
+  .navBar {
+    .list {
+      &.active {
+        display: none;
+      }
+    }
+  }
+}
