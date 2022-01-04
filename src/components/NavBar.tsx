@@ -6,6 +6,7 @@ import {AiOutlineGithub, AiFillLinkedin} from 'react-icons/ai'
 const NavBar = () => {
     const [mobileScreen , setMobileScreen] = useState<boolean>(false);
     const [mobileActive , setMobileActive] = useState<boolean>(false);
+    const [scrollDown , setScrollDown] = useState<boolean>(false);
 
     useEffect(() => {
         window.innerWidth <= 770 ? setMobileScreen(true) : setMobileScreen(false);
@@ -18,10 +19,19 @@ const NavBar = () => {
     const toggleMobileActive = () => {
         setMobileActive(!mobileActive)
     }
+    
+    let lastScroll =  window.scrollY;
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY  
+        lastScroll < scrollTop ? setScrollDown(true): setScrollDown(false);
+        lastScroll = scrollTop;
+    })
 
+   console.log(scrollDown);
    
 return (
-    <div className='navBar'>
+    
+    <div className='navBar' style={ scrollDown ? {top: '-80px'} :  {top: '0'}}>
             <a href='https://igoris12.github.io/portfolio_website/' className='logo'><img src={logo} alt="logo" /></a>
             <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
                 <ul>
