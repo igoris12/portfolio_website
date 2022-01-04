@@ -36,6 +36,16 @@
   }
 }
 
+@media (max-width: 770px) {
+  .heroContainer {
+    h1 {
+      font-size: 18px;
+    }
+  }
+}
+
+//animations
+
 @keyframes nameAnimaition {
   from {
     opacity: 1;
