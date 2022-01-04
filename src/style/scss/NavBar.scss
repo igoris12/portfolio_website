@@ -3,13 +3,14 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: $backgroundColor;
+  background-color: rgba(2, 12, 27, 0.6);
   color: white;
   display: flex;
   align-items: center;
   padding: 0 20px;
   height: 80px;
   transition: 0.5s;
+  z-index: 1;
 
   .logo {
     background-color: rgb(87, 87, 88);
@@ -167,7 +168,7 @@
         width: 100%;
       }
       .hmItem2 {
-        background: transparent;
+        opacity: 0;
       }
       .hmItem3 {
         transform: translate(-15px, -7px) rotate(-45deg);
