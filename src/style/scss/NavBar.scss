@@ -58,6 +58,10 @@
         font-family: $headerFont;
         font-size: 14px;
         transition: 0.5s;
+        letter-spacing: 1.5px;
+        position: relative;
+        animation-name: slideListItem;
+        animation-duration: 1s;
         cursor: pointer;
         &::after {
           content: '';
@@ -84,6 +88,8 @@
       width: 288px;
       height: 100%;
       background-color: rgb(4, 22, 48);
+      animation: slideList;
+      animation-duration: 0.5s;
 
       ul {
         display: flex;
@@ -98,6 +104,9 @@
       align-items: center;
       justify-content: center;
       gap: 20px;
+      position: relative;
+      animation-name: slideListItem;
+      animation-duration: 1.5s;
       a {
         font-size: 25px;
         color: white;
@@ -182,5 +191,33 @@
         display: none;
       }
     }
+  }
+}
+
+// animatinos
+@keyframes slideListItem {
+  0% {
+    left: 100px;
+    opacity: 0;
+  }
+
+  50% {
+    left: 70px;
+
+    opacity: 0;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideList {
+  from {
+    width: 0;
+  }
+  to {
+    width: 288px;
   }
 }
