@@ -15,7 +15,6 @@ const NavBar = () => {
     })
     }, [])
     
-
     const toggleMobileActive = () => {
         setMobileActive(!mobileActive)
     }
@@ -25,10 +24,7 @@ const NavBar = () => {
         const scrollTop = window.scrollY  
         lastScroll < scrollTop ? setScrollDown(true): setScrollDown(false);
         lastScroll = scrollTop;
-    })
-
-   console.log(scrollDown);
-   
+    })   
 return (
     
     <div className='navBar' style={ scrollDown ? {top: '-80px'} :  {top: '0'}}>
