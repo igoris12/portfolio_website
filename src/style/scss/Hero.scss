@@ -48,6 +48,12 @@
     background: $primaryColor;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-family: $headerFont;
+    margin: 15px 0px;
+  }
+  p {
+    color: white;
+    font-family: $headerFont;
   }
 }
 
