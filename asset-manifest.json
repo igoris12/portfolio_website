@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.f6d896c1.chunk.css",
+    "main.css": "/portfolio_website/static/css/main.a7f29d8b.chunk.css",
     "main.js": "/portfolio_website/static/js/main.79cad9d7.chunk.js",
     "main.js.map": "/portfolio_website/static/js/main.79cad9d7.chunk.js.map",
     "runtime-main.js": "/portfolio_website/static/js/runtime-main.0096e2f4.js",
@@ -8,7 +8,7 @@
     "static/js/2.ba6b2268.chunk.js": "/portfolio_website/static/js/2.ba6b2268.chunk.js",
     "static/js/2.ba6b2268.chunk.js.map": "/portfolio_website/static/js/2.ba6b2268.chunk.js.map",
     "index.html": "/portfolio_website/index.html",
-    "static/css/main.f6d896c1.chunk.css.map": "/portfolio_website/static/css/main.f6d896c1.chunk.css.map",
+    "static/css/main.a7f29d8b.chunk.css.map": "/portfolio_website/static/css/main.a7f29d8b.chunk.css.map",
     "static/js/2.ba6b2268.chunk.js.LICENSE.txt": "/portfolio_website/static/js/2.ba6b2268.chunk.js.LICENSE.txt",
     "static/media/avatar.e3cc57bd.png": "/portfolio_website/static/media/avatar.e3cc57bd.png",
     "static/media/index.scss": "/portfolio_website/static/media/heroBackground.691084f7.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.0096e2f4.js",
     "static/js/2.ba6b2268.chunk.js",
-    "static/css/main.f6d896c1.chunk.css",
+    "static/css/main.a7f29d8b.chunk.css",
     "static/js/main.79cad9d7.chunk.js"
   ]
 }
