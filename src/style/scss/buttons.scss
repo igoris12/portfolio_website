@@ -1,0 +1,25 @@
+.but {
+  background: $secondaryColor;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  border-radius: 4px;
+  color: white;
+  text-transform: uppercase;
+  font-family: $secondaryFont;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+  &:hover {
+    background: $color3;
+  }
+  &.butOutline {
+    background: transparent;
+    border: 2px solid $secondaryColor;
+    color: $secondaryColor;
+    &:hover {
+      border: 2px solid $color3;
+      color: $color3;
+    }
+  }
+}
