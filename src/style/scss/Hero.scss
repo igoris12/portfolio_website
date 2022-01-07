@@ -72,6 +72,33 @@
       color: $color3;
     }
   }
+  .socialsLink {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    position: fixed;
+    right: 20px;
+    a {
+      width: 30px;
+      height: 30px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(249, 105, 14, 0.2);
+      border-radius: 50%;
+      padding: 5px;
+      color: $color3;
+      transition: 0.5s;
+      &:hover {
+        color: white;
+        animation: socialsLinksAnimation;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
 }
 
 @media (max-width: 770px) {
@@ -86,6 +113,9 @@
     }
     p {
       font-size: 13px;
+    }
+    .socialsLink {
+      bottom: 90px;
     }
   }
 }
@@ -255,5 +285,13 @@
 
   100% {
     top: 0;
+  }
+}
+@keyframes socialsLinksAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
