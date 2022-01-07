@@ -1,4 +1,5 @@
 import React from 'react'
+import {AiOutlineGithub, AiFillLinkedin} from 'react-icons/ai' 
 
 import {AiOutlineArrowDown} from 'react-icons/ai' 
 
@@ -15,7 +16,10 @@ const Hero = () => {
             </div>
         </section>
         <a href="#" className='scrollDonw'><AiOutlineArrowDown/></a>
-        <div className='socialsLink'>link with icon</div>
+        <div className='socialsLink'>
+            <a href="https://github.com/igoris12"  target="_blank"><AiOutlineGithub/></a> 
+            <a href="https://www.linkedin.com/in/igoris-ivanovas-839645194"  target="_blank"><AiFillLinkedin/></a>
+        </div>
         </section>
     )
 }
