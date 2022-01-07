@@ -59,6 +59,19 @@
     margin-bottom: 30px;
     word-break: break-word;
   }
+  .scrollDonw {
+    font-size: 45px;
+    margin-top: 50px;
+    color: white;
+    position: relative;
+    animation: scrollDown;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    &:hover {
+      color: $color3;
+    }
+  }
 }
 
 @media (max-width: 770px) {
@@ -225,5 +238,22 @@
 
   100% {
     width: 280px;
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 30px;
+  }
+  70% {
+    top: 0;
+  }
+
+  100% {
+    top: 0;
   }
 }
