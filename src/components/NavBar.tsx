@@ -7,7 +7,6 @@ const NavBar = () => {
     const [mobileScreen , setMobileScreen] = useState<boolean>(false);
     const [mobileActive , setMobileActive] = useState<boolean>(false);
     const [scrollDown , setScrollDown] = useState<boolean>(false);
-
     useEffect(() => {
         window.innerWidth <= 770 ? setMobileScreen(true) : setMobileScreen(false);
         return     window.addEventListener('resize', () => {
