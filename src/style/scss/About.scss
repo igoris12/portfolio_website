@@ -1,6 +1,10 @@
 .about {
   background: rgb(2, 12, 27);
   color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  gap: 20px;
   .avatar {
     width: 144px;
     height: 144px;
@@ -30,6 +34,25 @@
       animation-timing-function: cubic-bezier(0, 0, 0, 0);
     }
   }
+
+  article {
+    header {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      font-family: $headerFont;
+      font-size: 36px;
+      span {
+        animation: waveAnimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        display: inline-block;
+        animation-timing-function: cubic-bezier(0, 0, 0, 0);
+        // transform: rotate(20deg);
+      }
+    }
+    background-color: red;
+  }
 }
 
 // animatino
@@ -50,4 +73,25 @@
   to {
     transform: rotate(-360deg);
   }
+}
+
+@keyframes waveAnimation {
+  // 0% {
+  //   transform: rotate(0deg);
+  // }
+
+  // 40% {
+  //   transform: rotate(30deg);
+  // }
+
+  // 50% {
+  //   transform: rotate(0deg);
+  // }
+  // 70% {
+  //   transform: rotate(30deg);
+  // }
+
+  // 100% {
+  //   transform: rotate(0deg);
+  // }
 }

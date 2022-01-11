@@ -5,12 +5,11 @@ const About = () => {
         <section className='about'>
                 <div className="avatar"><img src={avatarImg} alt="avater" /></div>
                 <article>
-                    <header>Hello {null}</header>
+                    <header>Hello <span>👋</span></header>
                     <p>info</p>
                     <p>info</p>
                     <p>info</p>
                 <a href="#">Link ot my Linkedink</a>
-                
                 </article>
         </section>
     )
