@@ -1,9 +1,9 @@
 import React from 'react'
-
+import avatarImg from '../img/avatar.png'
 const About = () => {
     return (
         <section className='about'>
-                <div className="avatar"><img src="#" alt="avater" /></div>
+                <div className="avatar"><img src={avatarImg} alt="avater" /></div>
                 <article>
                     <header>Hello {null}</header>
                     <p>info</p>

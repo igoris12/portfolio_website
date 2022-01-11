@@ -1,3 +1,53 @@
 .about {
-  background-color: red;
+  background: rgb(2, 12, 27);
+  color: white;
+  .avatar {
+    width: 144px;
+    height: 144px;
+    background: $primaryColor;
+    position: relative;
+    border-radius: 50%;
+    animation: backgroundRotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
+    img {
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      right: 4px;
+      bottom: 4px;
+      border: 2px solid black;
+      object-fit: cover;
+      width: 136px;
+      height: 136px;
+      border-radius: 50%;
+      animation: imageRotation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      display: inline-block;
+      animation-timing-function: cubic-bezier(0, 0, 0, 0);
+    }
+  }
+}
+
+// animatino
+
+@keyframes backgroundRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes imageRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
