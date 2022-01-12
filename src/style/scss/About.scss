@@ -2,56 +2,75 @@
   background: rgb(2, 12, 27);
   color: white;
   display: flex;
-  flex-direction: row;
-  padding: 60px;
-  gap: 20px;
-  .avatar {
-    width: 144px;
-    height: 144px;
-    background: $primaryColor;
-    position: relative;
-    border-radius: 50%;
-    animation: backgroundRotation;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    display: inline-block;
-    animation-timing-function: cubic-bezier(0, 0, 0, 0);
-    img {
-      position: absolute;
-      top: 4px;
-      left: 4px;
-      right: 4px;
-      bottom: 4px;
-      border: 2px solid black;
-      object-fit: cover;
-      width: 136px;
-      height: 136px;
+  justify-content: center;
+  .container {
+    max-width: 880px;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    gap: 20px;
+    align-items: center;
+    .avatar {
+      min-width: 144px;
+      min-height: 144px;
+      width: 144px;
+      height: 144px;
+      background: $primaryColor;
+      position: relative;
       border-radius: 50%;
-      animation: imageRotation;
+      animation: backgroundRotation;
       animation-duration: 5s;
       animation-iteration-count: infinite;
       display: inline-block;
       animation-timing-function: cubic-bezier(0, 0, 0, 0);
-    }
-  }
-
-  article {
-    header {
-      display: flex;
-      gap: 30px;
-      align-items: center;
-      font-family: $headerFont;
-      font-size: 36px;
-      span {
-        animation: waveAnimation;
-        animation-duration: 2s;
+      img {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+        border: 2px solid black;
+        object-fit: cover;
+        width: 136px;
+        height: 136px;
+        border-radius: 50%;
+        animation: imageRotation;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
         display: inline-block;
         animation-timing-function: cubic-bezier(0, 0, 0, 0);
-        // transform: rotate(20deg);
       }
     }
-    background-color: red;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      header {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        font-family: $headerFont;
+        font-size: 36px;
+        span {
+          animation: waveAnimation;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          display: inline-block;
+          animation-timing-function: cubic-bezier(0, 0, 0, 0);
+          // transform: rotate(20deg);
+        }
+      }
+      p {
+        font-size: 17px;
+        font-family: $secondaryFont;
+        word-break: break-word;
+        strong {
+          font-size: 17px;
+        }
+      }
+      // background-color: red;
+    }
   }
 }
 
