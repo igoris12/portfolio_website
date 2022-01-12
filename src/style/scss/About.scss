@@ -6,6 +6,8 @@
   padding: 60px;
   gap: 20px;
   .avatar {
+    min-width: 144px;
+    min-height: 144px;
     width: 144px;
     height: 144px;
     background: $primaryColor;
@@ -51,7 +53,15 @@
         // transform: rotate(20deg);
       }
     }
-    background-color: red;
+    p {
+      font-size: 17px;
+      font-family: $secondaryFont;
+      word-break: break-word;
+      strong {
+        font-size: 17px;
+      }
+    }
+    // background-color: red;
   }
 }
 
