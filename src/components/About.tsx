@@ -3,7 +3,8 @@ import avatarImg from '../img/avatar.png'
 const About = () => {
     return (
         <section className='about'>
-                <div className="avatar"><img src={avatarImg} alt="avater" /></div>
+            <div className="container">
+            <div className="avatar"><img src={avatarImg} alt="avater" /></div>
                 <article>
                     <header>Hello <span>👋</span></header>
                     
@@ -13,8 +14,9 @@ const About = () => {
                          <strong>SASS</strong> and <strong>React</strong>.
                      </p>
                     <p>Alsou I work with TypeScript and have knowledge of HPH, Laravel, MySQL ,Git.</p>
-                <a href="#">Link ot my Linkedink</a>
+                    <a href="#">Link ot my Linkedink</a>
                 </article>
+            </div>
         </section>
     )
 }
