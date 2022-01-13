@@ -27,7 +27,7 @@
     height: 30px;
     animation: nameAnimation;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
 
     &::after {
       position: absolute;
@@ -68,6 +68,7 @@
     animation-duration: 2s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0, 0);
     &:hover {
       color: $color3;
     }
@@ -95,6 +96,7 @@
         animation: socialsLinksAnimation;
         animation-duration: 2s;
         animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0, 0, 0, 0);
       }
     }
   }
