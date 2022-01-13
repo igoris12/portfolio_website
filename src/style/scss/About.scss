@@ -53,10 +53,10 @@
         font-family: $headerFont;
         font-size: 36px;
         span {
-          animation: waveAnimation;
-          animation-duration: 2s;
-          animation-iteration-count: infinite;
           display: inline-block;
+          animation: waveAnimation;
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
           animation-timing-function: cubic-bezier(0, 0, 0, 0);
           // transform: rotate(20deg);
         }
@@ -99,22 +99,22 @@
 }
 
 @keyframes waveAnimation {
-  // 0% {
-  //   transform: rotate(0deg);
-  // }
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 
   // 40% {
   //   transform: rotate(30deg);
   // }
 
-  // 50% {
-  //   transform: rotate(0deg);
-  // }
+  50% {
+    transform: translate(0px, -5px) rotate(20deg);
+  }
   // 70% {
   //   transform: rotate(30deg);
   // }
 
-  // 100% {
-  //   transform: rotate(0deg);
-  // }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
 }
