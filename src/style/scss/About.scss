@@ -66,10 +66,14 @@
         font-family: $secondaryFont;
         word-break: break-word;
         strong {
-          font-size: 17px;
+          font-size: 20px;
+          word-break: break-word;
         }
       }
-      // background-color: red;
+      a {
+        text-transform: none;
+        margin: 0;
+      }
     }
   }
 }

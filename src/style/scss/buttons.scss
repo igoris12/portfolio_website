@@ -6,14 +6,18 @@
   border-radius: 4px;
   color: white;
   text-transform: uppercase;
-  font-family: $secondaryFont;
   font-weight: 500;
   cursor: pointer;
   transition: 0.4s;
+  font-family: $secondaryFont;
   &:hover {
     background: $color3;
   }
   &.butOutline {
+    display: inline-block;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
     background: transparent;
     border: 2px solid $secondaryColor;
     color: $secondaryColor;
