@@ -14,7 +14,9 @@ const About = () => {
                          <strong> SASS</strong> and <strong>React</strong>.
                      </p>
                     <p>Alsou I work with TypeScript and have knowledge of PHP, Laravel, MySQL ,Git.</p>
-                    <a href="#" className='but butOutline'>My Linkedink</a>
+                    <a href="https://www.linkedin.com/in/igoris-ivanovas-839645194/" className='but butOutline' target='_blank'>
+                        My Linkedink
+                    </a>
                 </article>
             </div>
         </section>
