@@ -1,0 +1,12 @@
+.sectionEndContaner {
+  background-color: rgb(2, 12, 27);
+  .sectionEnd {
+    display: inline-block;
+    background: $primaryColor;
+    height: 0.7px;
+    border: none;
+    margin-bottom: 80px;
+    width: calc(100% - 120px);
+    margin-left: 60px;
+  }
+}

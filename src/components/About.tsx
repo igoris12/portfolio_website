@@ -1,7 +1,10 @@
 import React from 'react'
 import avatarImg from '../img/avatar.png'
+import SectionEnd from './SectionEnd'
+
 const About = () => {
     return (
+        <>
         <section className='about'>
             <div className="container">
             <div className="avatar"><img src={avatarImg} alt="avater" /></div>
@@ -20,6 +23,8 @@ const About = () => {
                 </article>
             </div>
         </section>
+      <SectionEnd/>
+        </>
     )
 }
 
