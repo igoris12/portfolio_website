@@ -1,4 +1,10 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
+import projects from '../data/projects.json'
+
+
+
+
 
 const Projects = () => {
     return (
@@ -8,9 +14,8 @@ const Projects = () => {
                 <p>These are some of my best projects</p>
             </header>
             <ul className='projectsList'>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
+            <li><ProjectCard data = {projects[0]}/></li>
+           
 
             </ul>
         </section>
