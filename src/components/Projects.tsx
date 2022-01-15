@@ -14,9 +14,7 @@ const Projects = () => {
                 <p>These are some of my best projects</p>
             </header>
             <ul className='projectsList'>
-            <li><ProjectCard data = {projects[0]}/></li>
-           
-
+            <li key={2}><ProjectCard key={2} data = {projects[0]}/></li>
             </ul>
         </section>
     )

@@ -2,12 +2,12 @@
 
 [
     {"id": 1,
-    "img": "../img/reactProject.png",
+    "img": "/reactProject.png",
     "title": "test titele1",
     "tools": ["'aaa'", "aaa"],
     "desc" : "some text fore the this project 1",
-    "codeSource": "link",
-    "ProjectLink": "link"
+    "codeSource": "https://github.com/igoris12/vinted-project",
+    "ProjectLink": "https://igoris12.github.io/vinted-project/"
 
 },
   {"id": 2,
