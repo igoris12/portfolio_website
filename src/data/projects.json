@@ -2,7 +2,7 @@
 
 [
     {"id": 1,
-    "img": "../img/reactProject.png",
+    "img": "/reactProject.png",
     "title": "test titele1",
     "tools": ["'aaa'", "aaa"],
     "desc" : "some text fore the this project 1",
