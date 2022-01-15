@@ -25,13 +25,13 @@ const ProjectCard = ({data}:info) => {
            
            <div className='projectInfo'>
                <h2>{data.title}</h2> 
-               <div className="tools">
-                   {/* {data.tools.map((tool) => <p className='tool'>{tool}</p>)} */}
-               </div>
+               <ul className="tools">
+                   {data.tools.map((tool , i) => <li key={i} className='tool'>{tool}</li>)}
+               </ul>
                <p>{data.desc}</p>
                 <div className="link">
-                    <a href="#">View code</a>
-                    <a href="#">View project</a>
+                    <a href={data.codeSource} target='_blank'>{null}View code</a>
+                    <a href={data.ProjectLink} target='_blank'>{null} View project</a>
                 </div>
             </div>
         </article>
