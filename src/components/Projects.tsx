@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
 
 const Projects = () => {
     return (
@@ -8,9 +9,9 @@ const Projects = () => {
                 <p>These are some of my best projects</p>
             </header>
             <ul className='projectsList'>
-            <li>item</li>
-            <li>item</li>
-            <li>item</li>
+            <li><ProjectCard/></li>
+            <li><ProjectCard/></li>
+            <li><ProjectCard/></li>
 
             </ul>
         </section>

@@ -34,6 +34,9 @@
       word-break: break-word;
     }
   }
+  ul {
+    list-style: none;
+  }
 }
 
 @media (max-width: 770px) {
