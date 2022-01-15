@@ -2,7 +2,7 @@
     {"id": 1,
     "img": "linkz",
     "title": "test titele1",
-    "tools": [],
+    "tools": ["'aaa'", "aaa"],
     "desc" : "some text fore the this project 1",
     "codeSource": "link",
     "ProjectLink": "link"

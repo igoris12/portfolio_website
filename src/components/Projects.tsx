@@ -14,9 +14,9 @@ const Projects = () => {
                 <p>These are some of my best projects</p>
             </header>
             <ul className='projectsList'>
-            <li><ProjectCard/></li>
-            <li><ProjectCard/></li>
-            <li><ProjectCard/></li>
+            {/* <li><ProjectCard data = {projects[0]}/></li> */}
+            {/* <li><ProjectCard a = {'sss'}/></li>
+            <li><ProjectCard a = {'sss'}/></li> */}
 
             </ul>
         </section>
