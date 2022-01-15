@@ -1,4 +1,5 @@
 import React from 'react'
+// import image from '../img/reactProject.png'
 
 interface project  {
     id: number
@@ -19,7 +20,7 @@ const ProjectCard = ({data}:info) => {
     
     return (
         <article className='projectCard'>
-           <a href="#">image</a>
+           <a href="#"><img src='../img/reactProject.png' alt="project screen shot" /></a>
            <div className='projectInfo'>
                <h2>{data.title}</h2> 
                <div className="tools">

@@ -1,6 +1,8 @@
+
+
 [
     {"id": 1,
-    "img": "linkz",
+    "img": "../img/reactProject.png",
     "title": "test titele1",
     "tools": ["'aaa'", "aaa"],
     "desc" : "some text fore the this project 1",
