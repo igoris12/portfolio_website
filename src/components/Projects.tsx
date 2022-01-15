@@ -1,5 +1,10 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
+import projects from '../data/projects.json'
+
+
+
+
 
 const Projects = () => {
     return (
