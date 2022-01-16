@@ -1,16 +1,59 @@
 .projectCard {
   width: 100%;
   display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+
   a {
-    display: inline-block;
-    width: 300px;
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 245px;
+    perspective: 1000px;
+
     img {
-      width: 300px;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
+      border-radius: 20px;
+      transform: rotateY(30deg);
+      transition: 1s;
+      z-index: 2;
+    }
+    .backGround {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 245px;
+      background: $primaryColor;
+      border-radius: 20px;
+      transform: skew(3deg, -3deg) rotateY(30deg);
+      z-index: 1;
+      transition: 1s;
+    }
+    &:hover {
+      img {
+        transform: rotateY(-30deg);
+        z-index: 2;
+      }
+      .backGround {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 245px;
+        background: $primaryColor;
+        border-radius: 20px;
+        transform: skew(-3deg, 3deg) rotateY(-30deg);
+        z-index: 1;
+      }
     }
   }
   .projectInfo {
-    width: 450px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -46,6 +89,7 @@
         display: inline-block;
         color: $secondaryColor;
         width: auto;
+        height: auto;
         text-decoration: none;
         font-family: $headerFont;
         transition: 0.4s;
