@@ -14,7 +14,8 @@ const Projects = () => {
                 <p>These are some of my best projects</p>
             </header>
             <ul className='projectsList'>
-            <li key={2}><ProjectCard key={2} data = {projects[0]}/></li>
+                {projects.map((project) =>   <li key={project.id}><ProjectCard data = {project}/></li>)}
+          
             </ul>
         </section>
     )
