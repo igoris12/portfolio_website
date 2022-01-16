@@ -3,9 +3,9 @@
 [
     {"id": 1,
     "img": "/reactProject.png",
-    "title": "test titele1",
-    "tools": ["'aaa'", "aaa"],
-    "desc" : "some text fore the this project 1",
+    "title": "Project e-Shop vinted.lt frontend copy.",
+    "tools": ["React", "CSS", "SASS"],
+    "desc" : "In this project I make something similar to vinted.lt website using React.js. It have main page where are all selling items are an individual product card where are all info about product.",
     "codeSource": "https://github.com/igoris12/vinted-project",
     "ProjectLink": "https://igoris12.github.io/vinted-project/"
 

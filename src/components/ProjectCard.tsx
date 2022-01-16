@@ -1,5 +1,5 @@
 import React from 'react'
-// import image from '../img/reactProject.png'
+import {AiOutlineGithub} from 'react-icons/ai' 
 
 interface project  {
     id: number
@@ -21,7 +21,10 @@ const ProjectCard = ({data}:info) => {
 
     return (
         <article className='projectCard'>
-           <a href="#"><img src={require(`../img${data.img}`).default} alt="project screen shot" /></a>
+           <a href={data.ProjectLink} target='_blank'>
+               <img src={require(`../img${data.img}`).default} alt="project screen shot" />
+               <span className='backGround'></span>
+           </a>
            
            <div className='projectInfo'>
                <h2>{data.title}</h2> 
@@ -30,7 +33,7 @@ const ProjectCard = ({data}:info) => {
                </ul>
                <p>{data.desc}</p>
                 <div className="link">
-                    <a href={data.codeSource} target='_blank'>{null}View code</a>
+                    <a href={data.codeSource} target='_blank'>{null}<AiOutlineGithub/> View code</a>
                     <a href={data.ProjectLink} target='_blank'>{null} View project</a>
                 </div>
             </div>
