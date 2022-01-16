@@ -21,7 +21,9 @@ const ProjectCard = ({data}:info) => {
 
     return (
         <article className='projectCard'>
-           <a href="#"><img src={require(`../img${data.img}`).default} alt="project screen shot" /></a>
+           <a href="#">
+               <img src={require(`../img${data.img}`).default} alt="project screen shot" />
+           </a>
            
            <div className='projectInfo'>
                <h2>{data.title}</h2> 
