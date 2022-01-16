@@ -10,6 +10,7 @@
     }
   }
   .projectInfo {
+    width: 450px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -20,6 +21,38 @@
       -webkit-background-clip: text;
       word-break: break-word;
       text-transform: capitalize;
+    }
+    .tools {
+      display: flex;
+      gap: 15px;
+      .tool {
+        background: rgb(14, 33, 60);
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: inline-block;
+      }
+    }
+    p {
+      font-size: 17px;
+      font-family: $secondaryFont;
+      word-break: break-word;
+      text-align: justify;
+    }
+    .link {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      a {
+        display: inline-block;
+        color: $secondaryColor;
+        width: auto;
+        text-decoration: none;
+        font-family: $headerFont;
+        transition: 0.4s;
+        &:hover {
+          color: $color3;
+        }
+      }
     }
   }
 }
