@@ -36,7 +36,7 @@
     }
     &:hover {
       img {
-        transform: rotateY(-30deg);
+        transform: rotateY(0deg);
         z-index: 2;
       }
       .backGround {
@@ -47,7 +47,7 @@
         height: 100%;
         background: $primaryColor;
         border-radius: 20px;
-        transform: skew(-3deg, 3deg) rotateY(-30deg);
+        transform: skew(-5deg, 3deg) rotateY(0deg);
         z-index: 1;
       }
     }
