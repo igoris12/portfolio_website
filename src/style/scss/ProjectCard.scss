@@ -99,4 +99,24 @@
       }
     }
   }
+  &.reverse {
+    flex-direction: row-reverse;
+
+    a {
+      img {
+        transform: rotateY(-30deg);
+      }
+      .backGround {
+        transform: skew(-3deg, 3deg) rotateY(-30deg);
+      }
+      &:hover {
+        img {
+          transform: rotateY(0deg);
+        }
+        .backGround {
+          transform: skew(5deg, -3deg) rotateY(0deg);
+        }
+      }
+    }
+  }
 }

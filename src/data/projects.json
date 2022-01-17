@@ -7,7 +7,8 @@
     "tools": ["React", "CSS", "SASS"],
     "desc" : "In this project I make something similar to vinted.lt website using React.js. It have main page where are all selling items are and individual product card where are all info about product. In product info are fancy box for item images.",
     "codeSource": "https://github.com/igoris12/vinted-project",
-    "ProjectLink": "https://igoris12.github.io/vinted-project/"
+    "projectLink": "https://igoris12.github.io/vinted-project/",
+    "layoutReverse": false 
 
 },
   {"id": 2,
@@ -16,7 +17,8 @@
     "tools": ["JavScript", "CSS", "HTML"],
     "desc" : "This project I made in the start of me JavaScript study. In snakegame I make three speed levels.",
     "codeSource": "https://github.com/igoris12/Gallery",
-    "ProjectLink": "https://igoris12.github.io/Gallery/"
+    "projectLink": "https://igoris12.github.io/Gallery/",
+    "layoutReverse": true 
 
 }
 

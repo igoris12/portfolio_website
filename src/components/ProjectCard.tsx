@@ -8,7 +8,9 @@ interface project  {
     tools: string[]
     desc: string
     codeSource: string
-    ProjectLink: string
+    projectLink: string
+    layoutReverse: boolean 
+
 }
 
 interface info {
@@ -20,8 +22,8 @@ interface info {
 const ProjectCard = ({data}:info) => {
 
     return (
-        <article className='projectCard'>
-           <a href={data.ProjectLink} target='_blank'>
+        <article className={data.layoutReverse ? 'projectCard reverse' : 'projectCard'}>
+           <a href={data.projectLink} target='_blank'>
                <img src={require(`../img${data.img}`).default} alt="project screen shot" />
                <span className='backGround'></span>
            </a>
@@ -34,7 +36,7 @@ const ProjectCard = ({data}:info) => {
                <p>{data.desc}</p>
                 <div className="link">
                     <a href={data.codeSource} target='_blank'>{null}<AiOutlineGithub/> View code</a>
-                    <a href={data.ProjectLink} target='_blank'>{null} View project</a>
+                    <a href={data.projectLink} target='_blank'>{null} View project</a>
                 </div>
             </div>
         </article>
