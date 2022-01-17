@@ -20,7 +20,7 @@
     "projectLink": "https://igoris12.github.io/Gallery/",
     "layoutReverse": true 
 },
-{"id": 2,
+{"id": 3,
     "img": "/simpleForm.png",
     "title": "Project Simple multi step form",
     "tools": ["JavaScript", "CSS", "HTML"],
