@@ -2,6 +2,7 @@ import React from 'react'
 import {AiOutlineGithub} from 'react-icons/ai' 
 
 
+
 interface project  {
     id: number
     img: string
@@ -40,7 +41,6 @@ const ProjectCard = ({data}:info) => {
                     <a href={data.projectLink} target='_blank'>{null} View project</a>
                 </div>
             </div>
-        
         </article>
     )
 }
