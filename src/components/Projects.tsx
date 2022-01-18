@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <>
         <section className='projectsContainer'>
-            <header>
+            <header className='header'>
                 <h1>Projects</h1>
                 <p>These are some of my best projects</p>
             </header>
