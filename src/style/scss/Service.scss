@@ -1,0 +1,29 @@
+.serviceContinter {
+  background: rgb(4, 20, 44);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  .icon {
+    width: 28px;
+    height: 28px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  h2 {
+    font-size: 24px;
+    background: $primaryColor;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    word-break: break-word;
+  }
+  p {
+    font-size: 17px;
+    font-family: $secondaryFont;
+    word-break: break-word;
+  }
+}

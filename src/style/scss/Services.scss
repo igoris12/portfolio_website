@@ -1,0 +1,11 @@
+.servicesContainer {
+  background: rgb(2, 12, 27);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0px 60px;
+  .servicesList {
+    display: flex;
+    gap: 20px;
+  }
+}
