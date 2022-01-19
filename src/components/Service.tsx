@@ -1,12 +1,26 @@
-import React from 'react'
-import {FaCode} from 'react-icons/fa' 
-const Service = () => {
+import {FaCode, FaLaptopCode} from 'react-icons/fa' 
+import {SiFreelancer} from 'react-icons/si'
+
+interface service  {
+    id: number
+    title: string
+    des: string 
+    icon: number
+
+}
+
+interface info { 
+    data: service
+}
+
+
+const Service = ({data}: info) => {
     return (
         <div className='serviceContinter'>
-               <div className="icon"><FaCode/></div>
-               <h2>Some title </h2>
-               <FaCode/>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, assumenda?</p>
+               <div className="icon">{data.icon == 1 ? <FaCode/> : data.icon == 2 ? <FaLaptopCode/> : <SiFreelancer/>} </div>
+               
+               <h2>{data.title}</h2>
+               <p>{data.des}</p>
         </div>
     )
 }
