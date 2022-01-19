@@ -4,8 +4,21 @@
   flex-direction: column;
   color: white;
   padding: 0px 60px;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
   .servicesList {
     display: flex;
     gap: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .servicesContainer {
+    .servicesList {
+      flex-direction: column;
+      gap: 50px;
+    }
   }
 }
