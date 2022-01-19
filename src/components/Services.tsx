@@ -1,5 +1,6 @@
 import React from 'react'
 import Service from './Service'
+import services from '../data/services.json';
 
 const Services = () => {
     return (
@@ -9,9 +10,8 @@ const Services = () => {
                 <p>Excited to work with you</p>
             </header>
         <ul className='servicesList'>
-        <Service/>
-        <Service/>
-        <Service/>
+            {services.map((service)=>  <Service key={service.id} data={service}/>)}
+    
         </ul>
 
         </section>
