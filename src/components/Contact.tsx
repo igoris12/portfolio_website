@@ -9,7 +9,7 @@ const Contact = () => {
             <Header title='Contact' subtitle='Get in touch' />
             <div className="content">
                 <article>
-                    <p>Contacting me you can by Email and Linkedin link below.</p>
+                    <p>Contacting me you can by Email and Linkedin links below.</p>
                     <p>You can write to me at any time.</p>
                     <div className="links">
                         <a href="mailto:igoris.x@inbox.lt"><MdMail/>igoris.x@inbox.lt</a>

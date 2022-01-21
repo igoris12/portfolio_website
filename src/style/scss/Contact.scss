@@ -56,6 +56,26 @@
   }
 }
 
+@media (max-width: 770px) {
+  .contactContainer {
+    .content {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      article {
+        width: 100%;
+        .links {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
+        }
+      }
+      .image {
+        width: 70%;
+      }
+    }
+  }
+}
+
 // animation
 
 @keyframes imageFloating {
