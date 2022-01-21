@@ -2,9 +2,10 @@ import Header from './Header';
 import footerImage from '../img/footerImage.png';
 import {AiFillLinkedin} from 'react-icons/ai';
 import {MdMail} from 'react-icons/md';
-
+import SectionEnd from './SectionEnd'
 const Contact = () => {
   return    (
+      <>
         <section className='contactContainer'>
             <Header title='Contact' subtitle='Get in touch' />
             <div className="content">
@@ -21,6 +22,8 @@ const Contact = () => {
                 </div>
             </div>
         </section>
+        <SectionEnd/>
+        </>
         )     
 };
 
