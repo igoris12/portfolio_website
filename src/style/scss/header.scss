@@ -25,3 +25,9 @@
     word-break: break-word;
   }
 }
+
+@media (max-width: 770px) {
+  .header {
+    align-items: flex-start;
+  }
+}
