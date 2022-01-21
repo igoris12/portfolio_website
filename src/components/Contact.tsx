@@ -7,10 +7,10 @@ const Contact = () => {
             <Header title='Contact' subtitle='Get in touch' />
             <div className="content">
                 <article>
-                    <p>asfas</p>
-                    <p>adsfsdfasdfads</p>
+                    <p>For contacting me you can by Email and Linkedin link below.</p>
+                    <p>You can write to me at any time.</p>
                     <div className="links">
-                        <a href="#">Email</a>
+                        <a href="#">igoris.x@inbox.lt</a>
                         <a href="#">Linkedin</a>
                     </div>
                 </article>
