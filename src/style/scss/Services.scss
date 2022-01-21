@@ -16,6 +16,7 @@
 
 @media (max-width: 770px) {
   .servicesContainer {
+    align-items: flex-start;
     .servicesList {
       flex-direction: column;
       gap: 50px;

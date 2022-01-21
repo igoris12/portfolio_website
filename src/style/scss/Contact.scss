@@ -58,6 +58,7 @@
 
 @media (max-width: 770px) {
   .contactContainer {
+    align-items: flex-start;
     .content {
       flex-direction: column-reverse;
       align-items: flex-start;
