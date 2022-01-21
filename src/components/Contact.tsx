@@ -1,5 +1,7 @@
 import Header from './Header';
 import footerImage from '../img/footerImage.png';
+import {AiFillLinkedin} from 'react-icons/ai';
+import {MdMail} from 'react-icons/md';
 
 const Contact = () => {
   return    (
@@ -7,11 +9,11 @@ const Contact = () => {
             <Header title='Contact' subtitle='Get in touch' />
             <div className="content">
                 <article>
-                    <p>For contacting me you can by Email and Linkedin link below.</p>
+                    <p>Contacting me you can by Email and Linkedin link below.</p>
                     <p>You can write to me at any time.</p>
                     <div className="links">
-                        <a href="#">igoris.x@inbox.lt</a>
-                        <a href="#">Linkedin</a>
+                        <a href="mailto:igoris.x@inbox.lt"><MdMail/>igoris.x@inbox.lt</a>
+                        <a href="https://www.linkedin.com/in/igoris-ivanovas-839645194"  target="_blank"><AiFillLinkedin/>Linkedin</a>
                     </div>
                 </article>
                 <div className="image">

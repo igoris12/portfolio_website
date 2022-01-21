@@ -18,6 +18,29 @@
       display: flex;
       flex-direction: column;
       gap: 30px;
+      p {
+        font-family: $secondaryFont;
+        text-align: justify;
+        word-break: break-word;
+      }
+      .links {
+        display: flex;
+        gap: 40px;
+        a {
+          display: flex;
+          text-decoration: none;
+          color: $secondaryColor;
+          font-family: $secondaryFont;
+          font-size: 19px;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          transition: 0.3s;
+          &:hover {
+            color: $color3;
+          }
+        }
+      }
     }
     .image {
       width: 30%;
