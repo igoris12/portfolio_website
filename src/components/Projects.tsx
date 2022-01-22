@@ -11,7 +11,7 @@ import Header from './Header';
 const Projects = () => {
     return (
         <>
-        <section className='projectsContainer'>
+        <section id='projects' className='projectsContainer'>
             <Header title='Projects' subtitle='These are some of my best projects' />
             <ul className='projectsList'>
                 {projects.map((project) =>   <li key={project.id}><ProjectCard data = {project}/></li>)}

@@ -12,6 +12,10 @@
 @import './style/scss/Services.scss';
 @import './style/scss/Service.scss';
 @import './style/scss/Contact.scss';
-body {
-  background: $heroBackground;
+@import './style/scss/Footer.scss';
+html {
+  scroll-behavior: smooth;
+  body {
+    background: $heroBackground;
+  }
 }

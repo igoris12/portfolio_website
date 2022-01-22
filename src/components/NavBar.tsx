@@ -31,15 +31,15 @@ return (
             <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
                 <ul>
                 {mobileScreen &&
-                 <a className='avatar listItem' >
+                 <a href='https://igoris12.github.io/portfolio_website/' className='avatar listItem' >
                      <div className='avatarContainer'>
                         <img src={avatar} alt="Avatar" />
                     </div>
                 <p>Igoris Ivanovas</p></a>}
-                    <a className='listItem'>About</a>
-                    <a className='listItem'>Projects</a>
-                    <a className='listItem'>Services</a>
-                    <a className='listItem'>Contact</a>
+                    <a className='listItem'  href="#about">About</a>
+                    <a className='listItem' href="#projects">Projects</a>
+                    <a className='listItem' href="#services">Services</a>
+                    <a className='listItem' href="#contact">Contact</a>
                 </ul>
                 {mobileScreen && <div className='socialsLinks' >
                     <a href="https://github.com/igoris12" target="_blank" >< AiOutlineGithub /></a>

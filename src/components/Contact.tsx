@@ -6,7 +6,7 @@ import SectionEnd from './SectionEnd'
 const Contact = () => {
   return    (
       <>
-        <section className='contactContainer'>
+        <section id='contact' className='contactContainer'>
             <Header title='Contact' subtitle='Get in touch' />
             <div className="content">
                 <article>

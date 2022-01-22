@@ -5,7 +5,7 @@ import SectionEnd from './SectionEnd'
 const About = () => {
     return (
         <>
-        <section className='about'>
+        <section id='about' className='about'>
             <div className="container">
             <div className="avatar"><img src={avatarImg} alt="avater" /></div>
                 <article>
