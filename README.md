@@ -13,10 +13,10 @@ Site published at link: https://igoris12.github.io/portfolio_website/
 Design: https://chaoocharles.dev/
 
 ### Built With
-* [React.js]
-* [TypeScript]
-* [React Icons v4.3.1 ]
-* [React Router v6]
+* React.js
+* TypeScript
+* React Icons v4.3.1 
+* React Router v6
 
 ## Authors
 
