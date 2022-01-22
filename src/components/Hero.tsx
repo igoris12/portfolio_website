@@ -1,6 +1,4 @@
-import React from 'react'
 import {AiOutlineGithub, AiFillLinkedin} from 'react-icons/ai' 
-
 import {AiOutlineArrowDown} from 'react-icons/ai' 
 
 const Hero = () => {

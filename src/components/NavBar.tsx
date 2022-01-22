@@ -25,7 +25,6 @@ const NavBar = () => {
         lastScroll = scrollTop;
     })   
 return (
-    
     <div className='navBar' style={ scrollDown ? {top: '-80px'} :  {top: '0'}}>
             <a href='https://igoris12.github.io/portfolio_website/' className='logo'><img src={logo} alt="logo" /></a>
             <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
@@ -52,7 +51,6 @@ return (
                 </div>
         </div>
     )
-    
 }
 
 export default NavBar
