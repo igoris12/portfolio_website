@@ -59,6 +59,8 @@
         }
       }
       .listItem {
+        text-decoration: none;
+        color: white;
         text-transform: uppercase;
         font-family: $headerFont;
         font-size: 14px;
@@ -115,6 +117,7 @@
       a {
         font-size: 25px;
         color: white;
+
         &::after {
           content: '';
           display: block;

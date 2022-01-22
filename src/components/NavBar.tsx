@@ -36,10 +36,10 @@ return (
                         <img src={avatar} alt="Avatar" />
                     </div>
                 <p>Igoris Ivanovas</p></a>}
-                    <a className='listItem'>About</a>
-                    <a className='listItem'>Projects</a>
-                    <a className='listItem'>Services</a>
-                    <a className='listItem'>Contact</a>
+                    <a className='listItem' href="#">About</a>
+                    <a className='listItem' href="#">Projects</a>
+                    <a className='listItem' href="#">Services</a>
+                    <a className='listItem' href="#">Contact</a>
                 </ul>
                 {mobileScreen && <div className='socialsLinks' >
                     <a href="https://github.com/igoris12" target="_blank" >< AiOutlineGithub /></a>
