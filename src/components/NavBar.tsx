@@ -31,7 +31,7 @@ return (
             <nav id='navList' className={mobileScreen && mobileActive ? 'list active' : 'list'}>
                 <ul>
                 {mobileScreen &&
-                 <a className='avatar listItem' >
+                 <a href='https://igoris12.github.io/portfolio_website/' className='avatar listItem' >
                      <div className='avatarContainer'>
                         <img src={avatar} alt="Avatar" />
                     </div>
