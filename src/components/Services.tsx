@@ -7,7 +7,7 @@ import Header from './Header';
 const Services = () => {
     return (
         <>
-        <section className='servicesContainer'>
+        <section id='services' className='servicesContainer'>
             <Header title='Services' subtitle='Excited to work with you' />
             <ul className='servicesList'>
                 {services.map((service)=>  <Service key={service.id} data={service}/>)}
