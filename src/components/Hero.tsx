@@ -11,8 +11,8 @@ const Hero = () => {
             <h3> {'{FRONT-END WEB DEVELOPER}'}</h3>
             <p>HTML . CSS . JavaScript . React .  TypeScript</p>
             <div className='butContainer'>
-                <a href='#' className='but butOutline'>Projects</a> 
-                <a href='#' className='but'>Hire me</a>
+                <a href='#projects' className='but butOutline'>Projects</a> 
+                <a href='#contact' className='but'>Hire me</a>
             </div>
         </section>
         <a href="#about" className='scrollDonw'><AiOutlineArrowDown/></a>
