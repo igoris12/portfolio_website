@@ -1,0 +1,42 @@
+.footerContainer {
+  background: $backgroundColor;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 60px;
+  padding-bottom: 30px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    nav {
+      ul {
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        a {
+          cursor: pointer;
+          font-family: $headerFont;
+          color: $secondaryColor;
+          font-size: 16px;
+          transition: 0.5s;
+          &:hover {
+            color: $color3;
+          }
+        }
+      }
+    }
+    p {
+      font-family: $headerFont;
+      color: rgb(126, 145, 174);
+      word-break: break-word;
+      text-align: center;
+    }
+  }
+}
