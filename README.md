@@ -6,7 +6,7 @@
 ### Portfolio Website
 
 ## About The Project
-This project is for show my React.js knowledge.
+This project is for show my React.js knowledge. In the project are some info about me.
 
 Site published at link: https://igoris12.github.io/portfolio_website/
 
