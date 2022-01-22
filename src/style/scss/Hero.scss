@@ -59,6 +59,14 @@
     margin-bottom: 30px;
     word-break: break-word;
   }
+  .butContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+    }
+  }
   .scrollDonw {
     font-size: 45px;
     margin-top: 50px;
@@ -91,6 +99,7 @@
       padding: 5px;
       color: $color3;
       transition: 0.5s;
+      // text-decoration: none;
       &:hover {
         color: white;
         animation: socialsLinksAnimation;

@@ -10,12 +10,12 @@ const Hero = () => {
             <h1>Igoris Ivanovas</h1>
             <h3> {'{FRONT-END WEB DEVELOPER}'}</h3>
             <p>HTML . CSS . JavaScript . React .  TypeScript</p>
-            <div>
-                <button className='but butOutline'>Projects</button> 
-                <button className='but'>Hire me</button>
+            <div className='butContainer'>
+                <a href='#' className='but butOutline'>Projects</a> 
+                <a href='#' className='but'>Hire me</a>
             </div>
         </section>
-        <a href="#" className='scrollDonw'><AiOutlineArrowDown/></a>
+        <a href="#about" className='scrollDonw'><AiOutlineArrowDown/></a>
         <div className='socialsLink'>
             <a href="https://github.com/igoris12"  target="_blank"><AiOutlineGithub/></a> 
             <a href="https://www.linkedin.com/in/igoris-ivanovas-839645194"  target="_blank"><AiFillLinkedin/></a>
