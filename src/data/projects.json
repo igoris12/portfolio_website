@@ -27,7 +27,15 @@
     "codeSource": "https://github.com/igoris12/simple_form",
     "projectLink": "https://igoris12.github.io/simple_form/",
     "layoutReverse": false
-
+},
+{"id": 4,
+    "img": "/webProject.png",
+    "title": "Project similar to watson-vcard.netlify.app website using React.js",
+    "tools": ["React", "SASS", "HTML", "SwiperJs", "isotope-layout","react-simple-typewriter"],
+    "desc" : "This project is for educational porpuses only. In this project I try to make something similar to watson-vcard.netlify.app website using React.js. This project took a lot of my time because I work on it at my free time. But it was worth doing, I learned a lot of new things, new tools, and how use them with each other that. I had a lot of hard challenges that I manage to overcome. =)",
+    "codeSource": "https://github.com/igoris12/web-animation-project",
+    "projectLink": "https://igoris12.github.io/web-animation-project/",
+    "layoutReverse": true
 }
 
 ]
