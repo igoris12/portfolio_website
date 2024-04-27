@@ -47,7 +47,7 @@
     "layoutReverse": true
   },
   {
-    "id": 4,
+    "id": 5,
     "img": "/pomodor.png",
     "title": "Project similar to pomodor.app website using React.js",
     "tools": ["React", "SASS", "HTML", "React-redux"],
